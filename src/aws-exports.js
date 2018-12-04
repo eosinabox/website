@@ -2,9 +2,9 @@
 
 const awsmobile =  {
     "aws_project_region": "us-east-1",
-    "aws_content_delivery_bucket": "eosinabox-20181128131234--hostingbucket",
+    "aws_content_delivery_bucket": "eosinabox-20181204103230--hostingbucket",
     "aws_content_delivery_bucket_region": "us-east-1",
-    "aws_content_delivery_url": "https://d2y9jhji7sdws4.cloudfront.net"
+    "aws_content_delivery_url": "https://d10ujx1i6aiu1n.cloudfront.net"
 };
 
 

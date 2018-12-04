@@ -25,7 +25,7 @@ const Footer = (props) => (
                 <dd><a href="mailto:ami.heines@gmail.com?Subject=Re%20eosinabox">ami.heines@gmail.com</a></dd>
             </dl>
             <ul className="icons">
-                <li><a href="#" className="icon fa-telegram alt"><span className="label">Telegram</span></a></li>
+                <li><a href="https://t.me/joinchat/Cp338hKwc-sHC_4V574rsg" className="icon fa-telegram alt"><span className="label">Telegram</span></a></li>
                 {/*<li><a href="#" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
                 <li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
                 <li><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
