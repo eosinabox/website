@@ -21,7 +21,7 @@ class Getstarted extends React.Component {
             <li>Start 3 fresh Ubuntu servers with enough RAM (todo: need to check if can start with a cheap server with low RAM requirements) </li>
             <li>Write a list of their IP addresses</li>
             <li>One of the servers will be the initial one to launch the blockchain</li>
-            <li>Use the script from <a href="https://developers.eos.io/eosio-nodeos/docs/bios-boot-sequence">the documentation</a> until a script will be ade here</li>
+            <li>Use the script from <a href="https://developers.eos.io/eosio-nodeos/docs/bios-boot-sequence">the docs,</a> until a script will be ade here</li>
             </ul>
           </section>
         </div>

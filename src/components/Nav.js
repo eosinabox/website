@@ -22,7 +22,10 @@ const Nav = (props) => (
                 </Scroll>
             </li>
             <li>
-                <Link to="/getstarted">Get Started</Link>
+                <Link to="/getstarted2">Get Started</Link>
+            </li>
+            <li>
+                <Link to="/blog20181211">blog</Link>
             </li>
         </Scrollspy>
     </nav>
