@@ -30,6 +30,8 @@ class Getstarted extends React.Component {
           I created a snapshot of the computers so I can get back to the same initial state later and start another experiment without needing to install and configure again.<br/>
           With some "ip -c a" I could find the ip addresses of the 3 virtual computeres and successfully ssh'd to them using "ssh ami@192.168.56.101"<br/>
           Now I can actually start experimenting. I will follow the process outlined in the EOSIO documentation and update here.<br/>
+          I found a nice commandline alternative to VirtualBox window: 'VBoxHeadless -s a &' since I called the computers a, b and c, this is easy!<br/>
+          Just need to remember to shut them down correctly with 'sudo shutdown now' from within the ssh.<br/>
           </section>
         </div>
       </Layout>

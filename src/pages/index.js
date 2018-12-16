@@ -52,6 +52,7 @@ class Index extends React.Component {
                 on your very own servers.
                 You already have your servers for regular apps, why not leverage the benefits of a blockchain aimed at developers?
                 </p>
+	    	<p>Why not experiment with your very own blockchain and see if you like it?</p>
                 {/*<ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>*/}
