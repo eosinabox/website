@@ -28,7 +28,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Tel Aviv building EOS related projects.{' '}
+              {/*Written by <strong>{author}</strong> who lives and works in Tel Aviv building EOS related projects.{' '}*/}
               <a href={`https://t.me/joinchat/Cp338hKwc-sHC_4V574rsg`}>
                 Chat about EOS in a Box on Telegram
               </a>
@@ -42,7 +42,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar:file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar:file(absolutePath: { regex: "/eosinabox.png/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
