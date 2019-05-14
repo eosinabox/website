@@ -29,7 +29,7 @@ function Bio() {
             />
             <p>
               {/*Written by <strong>{author}</strong> who lives and works in Tel Aviv building EOS related projects.{' '}*/}
-              <a href={`https://t.me/joinchat/Cp338hKwc-sHC_4V574rsg`}>
+              <a href={`https://t.me/EOSinaBox`}>
                 Chat about EOS in a Box on Telegram
               </a>
             </p>
