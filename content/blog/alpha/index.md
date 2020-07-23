@@ -11,4 +11,3 @@ An extremely unreliable experiment, with some sloppy code that will let you star
 Want to experiment with your very own blockchain and see if you like it?
 Head over to <a href="http://chartly.com">chartly.com</a>, just an old domain I had lying around...
 
-[Telegram](https://t.me/EOSinaBox)

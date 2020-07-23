@@ -10,4 +10,3 @@ EOS the blockchain and the token are akin to an expensive city. You can develop 
 
 Why not experiment with your very own blockchain and see if you like it?
 
-[Telegram](https://t.me/joinchat/Cp338hKwc-sHC_4V574rsg)
