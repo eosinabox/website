@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>EOS in a Box | EOS in a Box</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Repurposing the eosinabox name for something betterI was elected the “leader of the board” by a random number generator, so I got the 2000 EOS funding. I plan on using that to create a minisite templa">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EOS in a Box">
+<meta property="og:url" content="https://eosinabox.com/2021/07/20/Repurpose-Eosinabox/index.html">
+<meta property="og:site_name" content="EOS in a Box">
+<meta property="og:description" content="Repurposing the eosinabox name for something betterI was elected the “leader of the board” by a random number generator, so I got the 2000 EOS funding. I plan on using that to create a minisite templa">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-07-20T12:05:29.000Z">
+<meta property="article:modified_time" content="2021-07-20T12:14:10.264Z">
+<meta property="article:author" content="Ami Heines">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="EOS in a Box" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">EOS in a Box</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">EOS user onboarding enabler</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://eosinabox.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Repurpose-Eosinabox" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/07/20/Repurpose-Eosinabox/" class="article-date">
+  <time class="dt-published" datetime="2021-07-20T12:05:29.000Z" itemprop="datePublished">2021-07-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      EOS in a Box
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Repurposing-the-eosinabox-name-for-something-better"><a href="#Repurposing-the-eosinabox-name-for-something-better" class="headerlink" title="Repurposing the eosinabox name for something better"></a>Repurposing the eosinabox name for something better</h1><p>I was elected the “leader of the board” by a random number generator, so I got the 2000 EOS funding. I plan on using that to create a minisite template which will be easy to deploy on a web site domain.</p>
+<p>Each website owner will be need to be experienced in crypto wallet, specifically on EOSIO. Should be comfortable with knowing the difference between the owner and the active permissions and why it is a good idea to keep these separate. The website owner will be able to invite people who trust him to open a new EOS account using their phone on the website using just their biometrics - their fingerprints or faceID.</p>
+<p>Behind the scenes what will happen is that the website will interact with the user’s phone using <a target="_blank" rel="noopener" href="https://webauthn.guide/">webauthn</a> so the phone will create a new key pair on the secure hardware in the phone. The User’s phone doesnot send any biometric data to the web site, just a new public key. The website will create a new account on the EOS main net (and this can easily be changed to any other EOSIO chain). The newly created account will be paid for by the website owner, 3KB RAM which is needed to open an account is currently less than 0.1000 EOS or less than $0.40 USD. The user can then verify that the account actually exists using any blockchain explorer. The Active key will be the public key created by the WebAuthn process and the owner key will be the active key of the owner of the website or in a more advanced setup, any combination of additional users, public keys and time delays.</p>
+<p>The new account owner will be able to sign transactions using his fingerprint or faceID and will enjoy the convenience of not needing to take good care of any secret keys. The dreaded 12 word list on paper will be spared from him.</p>
+<p>If/when the user loses access to his phone, either it is broken, lost or stolen, no one else can access his funds since they need his biometrics too. In order for him to regain access to his account, he buys a new phone and asks the website owner for help in changing the active key to his new phone’s WebAuthn created one.</p>
+<p>Need to elaborate on the possible schemes for the owner keys, perhaps a group of friends can have several such sites and a 3 out of 6 of those web site owners can help any member of one of the websites to regain access to their account.</p>
+<p>Another risk is that the way the WebAuthn standard works is that the key pair is tied to the domain name. If the website is not accessible, all the users who enjoyed the convenience of an EOS account through that site are locked out. They need the help of whoever controls the owner key to change their active key to something else.</p>
+<h1 id="In-conclusion"><a href="#In-conclusion" class="headerlink" title="In conclusion"></a>In conclusion</h1><p>This will be an interesting additional option to help on-board new users. The tradeoffs should be obvious to any one who chooses to participate. Perhaps there will be a smart contract with “approve that you read the agreement” but it should be minimal and more aligned with a recadian contract clause and not the traditional sign up forms where a fairy dies every time someone clicks the checkbox next to the words: “I read and agree to the terms and conditions of this website”. Perhaps something along the short and informal lines:</p>
+<ol>
+<li>I personally know and trust the owner of this website</li>
+<li>Convenience comes with risks, I will not blame anyone if/when I lose my cryptos</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://eosinabox.com/2021/07/20/Repurpose-Eosinabox/" data-id="ckrc1yw6j0000tnv1aikd1tdw" data-title="EOS in a Box" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/07/20/Repurpose-Eosinabox/">EOS in a Box</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 Ami Heines<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
