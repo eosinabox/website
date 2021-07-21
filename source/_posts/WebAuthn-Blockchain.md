@@ -42,4 +42,4 @@ If the user loses their phone or it gets stolen, the user needs to ask the websi
 
 The user may elect to leave the system and graduate to an independent account with other key management system, the website owner can once again help by approving replacing the keys to whatever the account owner wants.
 
-If I made any inaccuracies, you know how to reach me, also for the more advanced EOSIO experts, what prevents such a system to work with any EOSIO chain, even without enabling WEBAUTHN_KEY?
+If I made any inaccuracies, you know how to reach me, Ami Heines, also for the more advanced EOSIO experts, what prevents such a system to work with any EOSIO chain, even without enabling WEBAUTHN_KEY?
