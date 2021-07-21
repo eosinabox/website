@@ -21,15 +21,15 @@ EOSIO lets you also use other accounts as owner or active permissions, time dela
 So I can do anything on my account as usual or if I'm in a coma, my father mother and brother can get access to my money. But that is not very reliable, what happens if one of them loses their keys? I need to add more people to allow for some flexibility. Maybe add:
 
     +1 mytrustedlawyer@active
-	+1 mybestfriendforever@active
+    +1 mybestfriendforever@active
 
-But too many people is also not so good, what if some of them collude to steal my money? I can set up a combination of permissions that will use time delay with the other people so I will have time to cancel and change the keys before it is irreversible. How about:
+But too many people is also not so good, what if some of them collude to steal my money? I can set up a combination of permissions that will use time delay with the other people so I will have time to cancel and change the keys before it is irreversible. How about adjusting the minimum threshold to 5:
 
     +1 mydad@active
     +1 mymom@active
     +1 mybrother@active
-	+1 mytrustedlawyer@active
-	+1 wait 7 days
+    +1 mytrustedlawyer@active
+    +1 wait 7 days
     +5 myPublicKey
 
 There are better combinations, I will write about it later.
@@ -41,3 +41,5 @@ Now the user has a first citizen EOS account if the mini site acts as a wallet a
 If the user loses their phone or it gets stolen, the user needs to ask the website owner for help in regaining access through a new phone. There will be a process similar to opening a new account where the webauthn asks the user to create a new keypair on the new phone and the website owner, will be able to change the public key for the user.
 
 The user may elect to leave the system and graduate to an independent account with other key management system, the website owner can once again help by approving replacing the keys to whatever the account owner wants.
+
+If I made any inaccuracies, you know how to reach me, also for the more advanced EOSIO experts, what prevents such a system to work with any EOSIO chain, even without enabling WEBAUTHN_KEY?
